@@ -5,3 +5,28 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+Post.create(
+    [
+        {
+            title: "rails app",
+            content: "初めて作ったrails appです",
+            url:"localhost:3000"
+        },
+        {
+            title: "react app",
+            content: "初めて作ったreact appです",
+            url:"localhost:3000"
+        },
+        {
+            title: "js app",
+            content: "初めて作ったjs appです",
+            url:"localhost:3000"
+        },
+        {
+            title: "html app",
+            content: "初めて作ったhtml appです",
+            url:"localhost:3000"
+        },
+    ]
+)

@@ -7,13 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    
-    if Rails.env.production?
-      origins 'https://done-portfolio.herokuapp.com/'
-    else
-      origins 'localhost:3000'
-    end
-
+    origins 'localhost:3000','https://done-portfolio.herokuapp.com/'
     resource "*",
       headers: :any,
       methods: [:get, :post, :put, :patch, :delete, :options, :head],

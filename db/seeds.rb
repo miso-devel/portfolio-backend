@@ -9,24 +9,9 @@
 Post.create(
     [
         {
-            title: "rails app",
-            content: "初めて作ったrails appです",
-            url:"localhost:3000"
-        },
-        {
-            title: "react app",
-            content: "初めて作ったreact appです",
-            url:"localhost:3000"
-        },
-        {
-            title: "js app",
-            content: "初めて作ったjs appです",
-            url:"localhost:3000"
-        },
-        {
-            title: "html app",
-            content: "初めて作ったhtml appです",
-            url:"localhost:3000"
+            title: "Portfolio",
+            content: "このサイト自身です。フロントエンドはReact・TypeScript、バックエンドはRails APIモードで構築しています。",
+            url:"https://done-portfolio.herokuapp.com/"
         },
     ]
 )
